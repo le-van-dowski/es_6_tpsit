@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --pg-background: rgba(140, 206, 206, 0);
+    /* variabile per il colore */
+    --pg-border:  rgb(118, 209, 209);
+    --pg-secondary-background:  rgb(118, 209, 209);
+    --background:rgb(29, 43, 73);
+}
+
+.bfont{
+    font-family: "Rubik",sans-serif;
+    font-size: 12px;
+    font-weight: 540;
+}
+.stray-B{
+    background-image: url(https://wallpapercave.com/wp/wp11320847.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*tiene lo sfondo fermo*/
+}
+.boxhigh-s{
+    height: 100px;
+    width: 100%
+}
+
+.img-s{
+    width: 80%;
+    margin-left: 70px;
+}
+
+.img-chapter{
+    width: 80%;
+    text-align: center;
+    border: 1px solid rgb(255, 206, 114);
+    box-sizing: border-box;
+}
+.box-center{
+   width: 65%;
+    background-color:var(--background);
+    margin-top: 100px;
+    margin: auto;
+
+}
+.img-start{
+    width: 25%;
+    float: right;
+    border: 1px solid rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+.boxhigh-s a{
+    text-decoration: none;
+    color: white;
+}
+.boxhigh-s a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: yellow;
+}
+a:hover{
+    text-decoration: underline yellow;
+}
+ul{
+    list-style-type: decimal;
+
+}
+
+.ul-conP{ /*ulcharacxhter */
+    list-style-type: circle;
+}
+.ul-senzaP{
+    list-style-type: none;
+}
+
+.box-chara{
+    border: 1px solid white;
+    margin: 30px 0px 30px 0px;
+    box-sizing: border-box;
+}
+
+.icon{
+    width: 15px;
+    height: 15px;
+}
+
+.img-fam{
+    width: 30%;
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+
+.pg-font {
+    font-size: 12px;
+}
+
+.pg-data {
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    grid-column-gap: 9px;
+    overflow: hidden;
+}
+.pg-item-spacing {
+    padding-bottom: 9px;
+    padding-top: 9px;
+    padding-left: 9px;
+}
+
+.pg-data-label {
+    flex-basis: 90px;
+    margin: 0;
+    overflow: hidden;
+}
+.pg-secondary-font {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-top: 0;
+}
+a, .box-div{
+    border: 0;
+    font: normal normal normal 100% inherit;
+    margin:0;
+    padding: 0;
+    vertical-align: initial;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    
+}
+.pg-title{
+    font-size: 18px;
+    padding: 12px 9px;
+    font-weight: bolder;
+    text-align: center;
+}
+.pg-background {
+    background-color: var(--pg-background);
+}
+.pg-secondary-background {
+    background: var(--pg-secondary-background);
+    color:rgb(29, 43, 73);
+}
+.pg-border-color {
+    border-color: var(--pg-border) ;
+}
+.infobox {
+
+    border-style: solid;
+    border-width: 1px;
+    float: right;
+    margin: 0 0 18px 30px;
+    width: 270px;
+}
+
+.Mynav a:hover{
+    background-color:rgb(29, 43, 73);
+    transition: ease-in-out 0.5s;
+}
+  
+
+/* .dropdown:hover .dropdown-menu {
+    display: block;
+    
+} */
+
+.dropdown-menu{
+    background-color: #3f495f;
+    padding: 0px;
+    margin: 0;
+    border-radius: 3px;
+    border: 0;
+    font-size: 12px;
+    font-family: "Rubik",sans-serif;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background-color:#e6eb5521 ;
+    color: #e8ed3e;
+    
+}
+
+.navbar-brand{
+    font-family: "Rubik",sans-serif;
+    font-size: 20px;
+    
+}
+  
+
+
+@media only screen and (max-width: 600px) {
+    .stray-B{
+        background-image: url(https://wallpapercave.com/wp/wp11320847.jpg) ;
+        background-repeat: repeat;
+        background-size: contain;
+    }
+    .img-chapter{
+       width:100%;
+       border: none;
+    
+    }
+    .img-start{
+        width: 100%;
+        float: right;
+        border: none;
+        box-sizing: border-box;
+        margin: 15px 0px 15px 0px;
+    }
+    .box-center{
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .img-s{
+        width: 50%;
+    }
+    .box-chara{
+        border: 1px solid white;
+        margin: 30px 0px 30px 0px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .box-pg{
+        border: 1px solid rgba(118, 209, 209, 0.514);
+        box-sizing: border-box;
+        width: 100%;
+        margin-bottom: 20px;
+        float: none;
+        
+    }
+    .img-fam{
+        width: 50%;
+        float: right;
+        margin: 0 0 20px 20px;
+    }
+
+    .Mynav{
+        background-color: var(--background);
+        position: absolute;
+        width: 100%;
+    }
+   
+}

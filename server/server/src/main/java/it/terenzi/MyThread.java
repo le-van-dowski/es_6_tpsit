@@ -1,4 +1,4 @@
-package ti.terenzi;
+package it.terenzi;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;
